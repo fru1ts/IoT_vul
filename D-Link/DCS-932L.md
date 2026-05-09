@@ -1,6 +1,6 @@
 # CVE-2026-36983
 
-# 概要
+# Overview
 
 - **Brief Description of Vulnerability**: The D-Link DCS-932L is a network surveillance camera manufactured by D-Link Corporation (China) used for security and monitoring purposes. A command injection vulnerability exists in the `sub_42EF14` function within the binary program `alphapd`, allowing a remote attacker with authorized access to submit specially crafted requests to execute arbitrary commands remotely.
 - **Vulnerable Endpoint URL**: `/setDayNightStream`
